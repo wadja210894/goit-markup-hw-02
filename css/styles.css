@@ -8,7 +8,7 @@
 body {
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color:var(--white-text);
 }
 .list {
   list-style-type: none;
@@ -77,6 +77,10 @@ body {
   color: var(--white-text);
   background-color: var(--accent-color);
   border: none;
+  cursor: pointer;
+}
+.hero-button:hover, .hero-button:focus{
+    background-color: #188CE8;
 }
 .visually-hidden {
   position: absolute;
@@ -99,7 +103,6 @@ body {
   color: var(--primary-text-color);
 }
 .benefits-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -113,7 +116,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.about-team {
+.our-team {
   background-color: #f5f4fa;
 }
 .team-title {
@@ -133,7 +136,6 @@ body {
   color: var(--primary-text-color);
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -146,7 +148,6 @@ body {
   color: var(--white-text);
 }
 .addres {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -154,14 +155,21 @@ body {
   font-style: normal;
   text-decoration: none;
 }
+.addres:hover,
+.addres:focus {
+  color: var(--accent-color);
+}
 .contact-link-footer {
   font-style: normal;
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.contact-link-footer:hover,
+.contact-link-footer:focus {
+  color: var(--accent-color);
 }
 .active {
   color: var(--accent-color);
@@ -176,6 +184,7 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -190,7 +199,6 @@ body {
   color: var(--primary-text-color);
 }
 .portfolio-subtitle {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
