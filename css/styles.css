@@ -78,6 +78,7 @@ body {
   background-color: var(--accent-color);
   border: none;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 .hero-button:hover, .hero-button:focus{
     background-color: #188CE8;
@@ -185,6 +186,7 @@ body {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 .filter-button:hover,
 .filter-button:focus {
